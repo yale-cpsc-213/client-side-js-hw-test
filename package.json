@@ -1,0 +1,25 @@
+{
+  "name": "client-side-js-hw-test",
+  "version": "1.0.0",
+  "description": "Testing code for homework on client side javascript",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yale-cpsc-213/client-side-js-hw-test.git"
+  },
+  "author": "Kyle Jensen",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/yale-cpsc-213/client-side-js-hw-test/issues"
+  },
+  "homepage": "https://github.com/yale-cpsc-213/client-side-js-hw-test#readme",
+  "dependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "jsbeautify": "^0.3.6",
+    "puppeteer": "^1.0.0"
+  }
+}
