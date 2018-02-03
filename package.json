@@ -2,7 +2,7 @@
     "name": "client-side-js-hw-test",
     "version": "1.0.0",
     "description": "Testing code for homework on client side javascript",
-    "main": "test.js",
+    "main": "server.js",
     "scripts": {
         "test": "jest"
     },
@@ -20,6 +20,7 @@
         "eslint": "^4.16.0",
         "eslint-config-airbnb-base": "^12.1.0",
         "eslint-plugin-import": "^2.8.0",
+        "express": "^4.16.2",
         "jest": "^22.1.4",
         "jsbeautify": "^0.3.6",
         "puppeteer": "^1.0.0",

@@ -35,3 +35,11 @@ test('The URL environment variable is defined and is a valid URL', () => {
     };
     expect(validator.isURL(url, options)).toBe(true);
 });
+
+test('The URL is up and has title "cpsc213-ftw"', async () => {
+    await page.goto(url, {
+        waitUntil: 'networkidle2'
+    });
+    const title = await page.title();
+    expect(title).toBe('cpsc213-ftw');
+});
